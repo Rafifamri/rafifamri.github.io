@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+} 
+div{
+    background-color: cornsilk;
+}
+.container {
+    display:flow-root;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;   
+    align-items: center;
+}
+.h1-navigation {
+    font-style: oblique;
+    text-align:center
+    
+}
+.h2-navbar {
+    font-style: oblique;
+}
+.navbar-h2 {
+    font-style: oblique;
+
+}
+.hdua-navbar {
+    font-style: oblique;
+    
+}
