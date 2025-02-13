@@ -1,0 +1,84 @@
+body {
+    background-color: #f0f8ff;
+}
+.h1-navigation {
+    text-align: center;
+}
+.img-biodata {
+    justify-items: center;
+    text-align: center;
+}
+.div-container {
+    justify-content: center;
+    text-align: center;    
+}
+.ul-navbar {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+}
+.li-navbar {
+    border: 1px solid  white;
+    background-color: #1633EC;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    justify-content: center;
+    color: #f0f8ff;
+    
+}
+.h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+.h1-info {
+    justify-content: center;
+    text-align: center;
+}
+.div-informasi-pribadi {
+    text-align: center;
+}
+.kembali-ke-home {
+    justify-content: center;
+    text-align: center;
+    background-color: #1633EC;
+    padding: 2px;
+}
+.h1-hobi {
+    justify-content: center;
+    text-align: center;
+}
+.div-hobi {
+    text-align: center;
+}
+.ul-hobi {
+    display: inline-block;
+    text-align: center;
+}
+.container-hobi {
+    text-align: center;
+}
+.ol-hobi {
+    display: inline-block;
+    text-align: center;
+}
+.div-saya {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.h1-tentangsaya {
+    justify-content: center;
+    text-align: center;
+}
+.div-pembelajaran {
+    justify-content: center;
+    text-align: center;
+}
+.div-iframe {
+    justify-content: center;
+    text-align: center;
+}
