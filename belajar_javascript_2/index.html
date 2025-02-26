@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>JavaScript Dasar 1</title>
+</head>
+<body>
+    <h4>Notes: Usia, Pernah ikut lomba sebelumnya, dan Waktu lari merupakan variabel yang inputnya berubah-ubah.</h4>
+    <hr>
+
+    <script>
+        alert("Halo Selamat Datang Silakan Masukkan Datadiri Anda");
+        const Nama = prompt("Silakan Masukkan Nama Anda")
+        document.writeln("<br>nama :"+Nama)
+        document.writeln("<br>");
+
+        let usia = prompt("Masukkan usia Anda:");
+        usia = Number(usia); // Konversi ke angka
+        document.writeln("Usia Anda :", usia);
+
+        
+        let waktuLari = prompt("Silahkan Masukkan Waktu Lari Anda");
+        document.writeln("<br>");
+        waktuLari = Number(waktuLari);
+        document.writeln("Waktu Lari Anda :",waktuLari);
+
+        const konfirmasi = confirm("Apakah anda pernah mengikuti lomba sebelumnya ? (OK = Ya, Cancel = Tidak)");
+        document.writeln("<br>sudah pernah mengikuti lomba : "+konfirmasi);
+
+
+    
+
+/*function tampilkanHasil() {
+  // Fungsi ini hanya contoh untuk menunjukkan langkah selanjutnya
+  console.log("Menampilkan hasil...");
+  // Tambahkan kode untuk menampilkan hasil di sini
+}*/
+        
+       // Variabel input
+let pernah_ikut_lomba = false;
+document.writeln("<br>Pernah ikut lomba: "+pernah_ikut_lomba);
+//let waktu_lari = 15.5;
+//document.writeln("<br>Waktu lari: "+waktu_lari);
+document.writeln("<hr>")
+
+// Menentukan apakah memenuhi syarat waktu (< 12 detik)
+let memenuhi_syarat_waktu = (waktuLari < 12)
+document.writeln("<br>Memenuhi syarat waktu? "+memenuhi_syarat_waktu);
+
+// Menentukan apakah peserta diterima
+let apakah_diterima = memenuhi_syarat_waktu ||  pernah_ikut_lomba;
+document.writeln("<br>Apakah diterima? "+apakah_diterima);
+
+/*if(apakah_diterima){
+    document.writeln("Selamat, Anda diterima sebagai peserta lomba");
+}else{
+    document.writeln("Maaf anda tidak diterima sebagai peserta lomba");
+    }
+    let konfirmasi = confirm("apakah anda pernah mengikuti lomba lari sebelumnya")
+        if (konfirmasi){
+            document.writeln("ya"+konfirmasi)
+        }
+         document.writeln("tidak")*/
+    </script>
+
+</body>
+</html>
